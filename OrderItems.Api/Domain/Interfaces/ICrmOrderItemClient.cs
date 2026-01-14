@@ -17,6 +17,5 @@ public interface ICrmOrderItemClient
     decimal totalItemPrice,
     CancellationToken ct = default
 );
-    //Task<List<OrderItem>> GetByOrderIdAsync(Guid orderId, CancellationToken ct = default);
-    //Task<Dictionary<Guid, List<OrderItem>>> GetByOrderIdsAsync(IEnumerable<Guid> orderIds, CancellationToken ct = default);
+
 }
